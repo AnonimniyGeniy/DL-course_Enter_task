@@ -3,8 +3,8 @@ import cv2
 from PIL import Image
 
 
-img = cv2.imread("test2.jpg")
-coreimg = cv2.imread("mask.jpg")
+img = cv2.imread("test2.jpg") #оригинальная картинка
+coreimg = cv2.imread("mask.jpg") #маска
 
 b,g,r = cv2.split(img)
 n = len(b)
